@@ -23,7 +23,7 @@ module Jstreams
     def publish(stream, message)
       @logger.tagged('publisher') do
         @redis_pool.with do |redis|
-          redis.xadd(stream, payload: @serializer.serialize(message, stream))
+          redis.xadd(stream, {payload: @serializer.serialize(message, stream)})
         end
         @logger.debug { "published to stream #{stream}: #{message.inspect}" }
       end
