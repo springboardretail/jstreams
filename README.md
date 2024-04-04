@@ -1,7 +1,6 @@
 # jstreams
 
-[![Gem](https://img.shields.io/gem/v/jstreams.svg)](https://rubygems.org/gems/jstreams)
-[![CircleCI](https://img.shields.io/circleci/project/github/jstotz/jstreams/master.svg)](https://circleci.com/gh/jstotz/jstreams)
+[![Build](https://github.com/springboardretail/jstreams/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/springboardretail/jstreams/actions/workflows/build.yml)
 [![Test Coverage](https://img.shields.io/codeclimate/coverage/jstotz/jstreams.svg)](https://codeclimate.com/github/jstotz/jstreams/test_coverage)
 [![Maintainability](https://img.shields.io/codeclimate/maintainability/jstotz/jstreams.svg)](https://codeclimate.com/github/jstotz/jstreams/maintainability)
 [![Docs](https://img.shields.io/badge/docs-yard-green.svg)](https://www.rubydoc.info/github/jstotz/jstreams/master)
