@@ -14,7 +14,6 @@ end
 
 group :development do
   gem 'byebug'
-  gem 'debase'
   gem 'pry'
   gem 'pry-byebug'
   gem 'pry-rescue'
@@ -22,6 +21,5 @@ group :development do
   gem 'redcarpet'
   gem 'rubocop'
   gem 'rubocop-performance'
-  gem 'ruby-debug-ide'
   gem 'solargraph'
 end
